@@ -1,0 +1,63 @@
+{
+  "name": "airbnb",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "react-dev": "webpack -d --watch",
+    "seed": "psql -U postgres < schema.sql",
+    "jest": "jest --watchAll",
+    "enlint": "eslint --ext jsx . --fix"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "axios": "^0.19.2",
+    "babel-jest": "^25.5.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "compression-webpack-plugin": "^4.0.0",
+    "cors": "^2.8.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "express": "^4.17.1",
+    "express-static-gzip": "^2.0.6",
+    "jest-environment-enzyme": "^7.1.2",
+    "jest-enzyme": "^7.1.2",
+    "pg": "^8.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reactdom": "^2.0.0",
+    "styled-components": "^5.1.0",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "jest": "^25.5.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      [
+        "babel-plugin-styled-components"
+      ]
+    ]
+  }
+}

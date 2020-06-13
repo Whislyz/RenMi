@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif, arial;
+}
+
+.shareIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.saveIcon {
+  width: 20px;
+  height: 20px;
+  position: sticky;
+}
+
+/* ViewPhotos.jsx */
+
+.ViewPhotosLarge {
+  width: 959.625px;
+  height: 639.75px;
+  position: absolute;
+  top: 12%;
+  left: 13%;
+  border-radius: 2%;
+
+  max-height: 75vh;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+  /* border-radius: 16px; */
+  max-width: 85%;
+  margin: 0px auto;
+}
+
+.exitButton {
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  border: aqua;
+  top: 7.9%;
+  left: 95.5%;
+}

@@ -1,0 +1,21 @@
+#container {
+  display: grid;
+  grid-template-columns: 660px auto;
+}
+
+#reviews {
+  padding-top: 20px;
+  margin-bottom: 75px;
+}
+
+#Breg {
+  position: sticky;
+  top: 10px;
+  padding: 10px 0 0 50px;
+}
+
+#body {
+  margin-left: 25%;
+}
+
+
